@@ -1,0 +1,45 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 414px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DA2535;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 230px;
+}
+
+.menu-button {
+    display: flex;
+}
+.menu {
+    display: none;
+    position: absolute;
+}
+
+.menu a {
+    display: block;
+}

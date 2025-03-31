@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Evita problemas de dimensionamento */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Garante centralização vertical */
+    background-color: #f5f5f5; /* Cor de fundo leve para melhor contraste */
+}
+
+main {
+    width: 100%;
+    max-width: 414px; /* Mantém responsivo */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #DA2535;
+    color: white;
+    padding: 10px 20px; /* Melhor espaçamento */
+    width: 100%; /* Ocupará toda a largura disponível */
+}
+
+.nav-titulo {
+    display: flex;
+    align-items: center;
+    gap: 220px; /* Espaço entre título e imagem */
+}
+
+.nav-menu img {
+    width: 30px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.nav-menu button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer; /* Indica que o botão é clicável */
+}
+
+.box-search {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.box-search .campo-search{
+    padding: 15px;
+    width: 200px;
+    font-size: 12px;
+    border-radius: 23px 0 0 23px;
+}
+
+.box-search .btn-search{
+    background-color: rgb(0, 110, 255);
+    padding: 15px;
+    width: 120px;
+    margin: 0;
+    font-size: 12px;
+    border-radius: 0 23px 23px 0;
+}
+
+
+select {
+    margin: auto 30%;
+    font-size: 15px;
+    outline: 0;
+    background:#DA2535;
+    color: #fff;
+    padding: 4px;
+    border-radius: 13px;
+  }
+
+  .produto-1 {
+    background-color: rgb(231, 231, 231);
+    align-items: center;
+    margin: 12px auto;
+    padding: 5px 200px;
+    border-radius: 5px;
+    width: 350px;
+  }
+
+  
+
+.produto-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin: 5px;
+    gap: 60px;
+} 
+
+.produto img {
+    width: 130px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.btn-carrinho button {
+    background-color: rgb(0, 110, 255);
+    border-radius: 20px;
+    border: #fff 5px;
+    padding: 8px 10px;
+}
+
+.produto button img {
+    width: 100px;
+    height: auto;
+    padding: 8px 40px;
+}
+
+

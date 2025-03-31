@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./arquivo-css/index.css">
+  <title>FoodJP</title>
+</head>
+
+<body>
+  <main>
+    <nav class="nav-bar">
+      <div class="nav-bar-logo">
+        <a href="./index.html">
+          <img src="./img-index/logo (3).png" alt="logo" class="logo">
+        </a>
+        <div class="nav-botao-mobile">
+          <button type="button" onclick="menuShow()">
+            <img src="./img-index/menu.png" alt="menu" class="menu">
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="banner-1">
+        <div class="text-1">
+          <h1>Comida Oriental</h1>
+          <p>A culinária Japonesa é bastante equilibrada sendo muito rica em peixes (ômega 3), vegetais, massas e
+            ingredientes frescos.</p>
+          <div class="button-1">
+            <button type="button" onclick="onblur"><a href="./cardapio.html">Cardápio</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="banner-2">
+        <div class="banner-2-img">
+          <img src="./img-index/img-segurando-prato.png" alt="imagem" class="img-segurando-prato">
+          <div class="text-2">
+            <h1>Feita de forma Tradicional</h1>
+            <p>O <strong>Chicken Katsu</strong> é uma variação japonesa do famoso prato de tonkatsu, que tradicionalmente é feito com carne de porco empanada e frita.</p>
+            <a href="#">
+              Ler mais sobre o modo de preparo
+            </a>
+          </div>
+        </div>
+        <div </div>
+    </section>
+
+    <div class="slider">
+      <div class="slider-titulo">
+          <h2>Cardápio</h2>
+        </div>
+      <div class="container-box">
+        <div class="box">
+          <img src="./img-index/img-prato-1.png" alt="Prato 1" />
+          <div class="slider-button">
+            <button type="submit" onclick="onblur">Cardápio</button>
+          </div>
+          <div class="slider-button"></div>
+        </div>
+        <div class="box">
+          <img src="./img-index/img-prato-2.png" alt="Prato 2" />
+          <div class="slider-button">
+            <button type="submit" onclick="onblur">Cardápio</button>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./img-index/img-prato-3.png" alt="Prato 3" />
+          <div class="slider-button">
+            <button type="submit" onclick="onblur">Cardápio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="maps-titulo">
+      <h2>Localização</h2>
+    </div>
+    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+      <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+          let setting = {"query":"Av. Panorâmica - Brisamar, João Pessoa - PB, Brasil","width":800,"height":250,"satellite":false,"zoom":12,"placeId":"EipBdi4gUGFub3LDom1pY2EsIEpvw6NvIFBlc3NvYSAtIFBCLCBCcmF6aWwiLiosChQKEgkLYEHwo8OsBxFhbVuJZSGjaBIUChIJBZvH4TjdrAcRrwvHAvbZvIM","cid":"0x68a32165895b6d61","coords":[-7.1794309,-34.8062101],"cityUrl":"/brazil/joao-pessoa-2134","cityAnchorText":"Mapa de João Pessoa, Paraiba, Brasil","lang":"pt","queryString":"Av. Panorâmica - Brisamar, João Pessoa - PB, Brasil","centerCoord":[-7.1794309,-34.8062101],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1198155"};
+          let d = document;
+          let s = d.createElement('script');
+          s.src = 'https://1map.com/js/script-for-user.js?embed_id=1198155';
+          s.async = true;
+          s.onload = function (e) {
+            window.OneMap.initMap(setting)
+          };
+          let to = d.getElementsByTagName('script')[0];
+          to.parentNode.insertBefore(s, to);
+        })();</script>
+        
+      </div>
+
+    <footer class="container-footer">
+      <div class="container-logo">
+        <img src="./img-index/logo (3).png" alt="logo">
+        <div class="contato">
+          <ul>
+            <ol>
+              <li><strong>Serviços</strong></li>
+              <li>Entrega</li>
+              <li>Página Principal</li>
+            </ol>
+            <ol>
+              <li><strong>Contato</strong></li>
+              <li>+5583999887280</li>
+              <li><a href="mailto:joseclebson546@gmail.coms">joseclebson546@icloud.com</a></li>
+            </ol>
+          </ul>
+          <div class="desenvolvedor">
+            <p><a href="https://www.instagram.com/clebs0n_/?next=%2F">Desenvolvido por Clebson</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

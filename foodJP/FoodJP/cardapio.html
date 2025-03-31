@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./arquivo-css/cardapio.css">
+    <title>Cardápio</title>
+    <script src="./arquivo-js/cardapio.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header class="nav">
+            <div class="nav-titulo">
+                <h1>FoodJP</h1>
+                <div class="nav-menu">
+                    <button type="button" onclick="">
+                        <img src="./img-index/menu.png" alt="menu">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="button-voltar">
+            <button type="button" onclick=""><a href="index.html">Voltar</a>
+            </button>
+        </div>
+
+        <form class="box-search">
+            <input class="campo-search" type="text" placeholder="Faça uma pesquisa">
+            <input class="btn-search" type="submit" value="busca">
+        </form>
+
+        <form action="#" class="categoria">
+
+            <select aria-label="opcao">
+                <option value="tradicional">Comida tradicional</option>
+                <option value="coreana">Comida coreana</option>
+                <option value="brasileira">Comida brasileira</option>
+            </select>
+        </form>
+        <section id="container-cardapio"></section>        
+    </main>
+</body>
+
+</html>
