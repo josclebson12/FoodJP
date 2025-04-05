@@ -27,6 +27,34 @@ const produto = [
         preco: "R$ 35,95",
         imgPrato: "./img/img.cardapio/wonton-frito.webp",
         imgCarrinho: "./img/img.cardapio/carrinho-compra.png"
+    },
+
+    {
+        nome:"HOTDOG",
+        preco: "R$ 23.45",
+        imgPrato: "./img/img.cardapio/hot-dog.jpg",
+        imgCarrinho: "./img/img.cardapio/carrinho-compra.png"
+    },
+
+    {
+        nome: "KIMCHI",
+        preco: "R$ 55.00",
+        imgPrato: "./img/img.cardapio/tteokbokki.webp",
+        imgCarrinho: "./img/img.cardapio/carrinho-compra.png"
+    },
+
+    {
+        nome: "JAPCHAE",
+        preco: "R$ 68.00",
+        imgPrato: "./img/img.cardapio/japchae.webp",
+        imgCarrinho: "./img/img.cardapio/carrinho-compra.png"
+    },
+
+    {
+        nome: "CARBO-NARA",
+        preco: "R$ 15.00",
+        imgPrato: "./img/img.cardapio/carbonara.webp",
+        imgCarrinho: "./img/img.cardapio/carrinho-compra.png"
     }
     
 ];

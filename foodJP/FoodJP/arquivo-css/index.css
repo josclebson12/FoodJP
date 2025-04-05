@@ -74,6 +74,11 @@ main {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+button a {
+  text-decoration: none;
+  color: white;
+}
+
 .banner-2-img img {
   margin: 20px;
   max-width: 374px;
@@ -164,9 +169,11 @@ main {
 }
 
 .desenvolvedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 15px;
   margin: auto 25%;
-  align-items: center;
 }
 
 a:link {
